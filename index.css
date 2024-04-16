@@ -1,55 +1,63 @@
-.nome {
-        font-size: 20px;
+.blocoinformacao {
+        border: 3px solid rgb(255, 255, 255); /* Cor e largura da borda */
+        padding: 25px; /* Espaçamento interno */
+        width: 360px; /* Largura do bloco de texto */
+        border-radius: 30px; /* Borda arredondada (opcional) */
+        margin: 0 auto;
+    }
+    .nome {
+        font-size: 15px;
         font-family: serif;
         box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
         color: white;
-        background-color: black;
         width: 300px; /* aumenta ou diminui o tamanho horizontal da cor de fundo*/
         height: 25px; /* aumenta ou diminui o tamanho vertical da cor de fundo */
         text-align: center; /* centraliza o texto  */
+        border-radius: 30px;
         }
     .datanascimento {
         font-size: 15px;
         font-family: serif;
         color: white;
-        background-color: black;
         width: 300px; 
         height: 25px;
         text-align: center;
+        box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
+        border-radius: 30px;
     }
     .curso {
         font-size: 15px;
         font-family: serif;
         color: white;
-        background-color: black;
         width: 300px; 
         height: 25px;
         text-align: center;
+        box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
+        border-radius: 30px;
     }
     .sobre {
         font-size: 15px;
         font-family: serif;
         color: white;
-        background-color: black;
         width: 300px; 
-        height: 70px;
+        height: 25px;
         text-align: center; 
+        box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
+        border-radius: 30px;
         }
     .conhecimento {
         font-size: 15px;
         font-family: serif;
         color: white;
-        background-color: black;
-        width: 300px; 
-        height: 25px;
-        text-align: center; 
+        width: 310px; 
+        height: 125px;
+        text-align: center;
+        box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
+        border-radius: 30px;
     }
     .corpo {
         background-color: black;
         margin: 25px;
-    }
-    .informacao {
-        color: white;
     }
     .legenda {
         color: white;
@@ -58,6 +66,30 @@
         color: white;
         font-size: 25px;
         font-family: serif;
+    }
+    .github {
+        color: white;
+        font-size: 15px;
+        width: 150px;
+        height: 60px;
+        margin: 80px;
+        float: left;
+    }
+    .whatsapp {
+        color: white;
+        font-size: 15px;
+        width: 150px;
+        height: 60px;
+        margin: 80px;
+        float: left;
+    }
+    .linkedin {
+        color: white;
+        font-size: 15px;
+        width: 170px;
+        height: 60px;
+        margin: 80px;
+        float: left;
     }
 
     /*estilos básicos */
@@ -69,7 +101,7 @@
 
      /*Estilos do menu*/
     .menu {
-        background-color: rgb(174, 37, 238);
+        background-color: rgb(132, 39, 175);
         padding: 10px 20px;
         display: flex;
         justify-content: space-between;
@@ -91,7 +123,7 @@
     }
     /* Estilos do link de contato */
     .contato {
-        background-color: #b51ce4;
+        background-color: #070707;
         padding: 10px 20px;
         border-radius: 5px;
     }
