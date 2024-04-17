@@ -8,13 +8,13 @@
     .nome {
         font-size: 15px;
         font-family: serif;
-        box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
+        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
         color: white;
         width: 300px; /* aumenta ou diminui o tamanho horizontal da cor de fundo*/
         height: 25px; /* aumenta ou diminui o tamanho vertical da cor de fundo */
         text-align: center; /* centraliza o texto  */
         border-radius: 30px;
-        }
+    }
     .datanascimento {
         font-size: 15px;
         font-family: serif;
@@ -22,7 +22,7 @@
         width: 300px; 
         height: 25px;
         text-align: center;
-        box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
+        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
         border-radius: 30px;
     }
     .curso {
@@ -32,7 +32,7 @@
         width: 300px; 
         height: 25px;
         text-align: center;
-        box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
+        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
         border-radius: 30px;
     }
     .sobre {
@@ -42,9 +42,9 @@
         width: 300px; 
         height: 25px;
         text-align: center; 
-        box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
+        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
         border-radius: 30px;
-        }
+    }
     .conhecimento {
         font-size: 15px;
         font-family: serif;
@@ -52,7 +52,7 @@
         width: 310px; 
         height: 125px;
         text-align: center;
-        box-shadow: 0 8px 8px 0 rgb(97, 13, 231);
+        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
         border-radius: 30px;
     }
     .corpo {
@@ -61,37 +61,12 @@
     }
     .legenda {
         color: white;
-        }
+    }
     .tituloinformacao {
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         font-family: serif;
     }
-    .github {
-        color: white;
-        font-size: 15px;
-        width: 150px;
-        height: 60px;
-        margin: 80px;
-        float: left;
-    }
-    .whatsapp {
-        color: white;
-        font-size: 15px;
-        width: 150px;
-        height: 60px;
-        margin: 80px;
-        float: left;
-    }
-    .linkedin {
-        color: white;
-        font-size: 15px;
-        width: 170px;
-        height: 60px;
-        margin: 80px;
-        float: left;
-    }
-
     /*estilos básicos */
     * {
         margin: 0;
@@ -101,27 +76,29 @@
 
      /*Estilos do menu*/
     .menu {
-        background-color: rgb(132, 39, 175);
-        padding: 10px 20px;
+        background-color: rgb(74, 10, 179);
+        padding: 10px 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: white;
     }
-    .logo img {
-        width: 50px; /* Largura da imagem */
+    .logo {
+        width: 115px; /* Largura */
         height: auto; /* Altura automática*/
         margin-right: 10px;
         vertical-align: middle;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        box-shadow: 0 8px 8px 0 rgb(5, 5, 5);
+        border-radius: 60px;
+        text-align: center; 
     }
     .menu ul {
         list-style: none;
         display: flex;
     }
-    .menu ul li {
-         margin-right: 20px;
-    }
-    /* Estilos do link de contato */
+    /* Estilos do link do menu */
     .contato {
         background-color: #070707;
         padding: 10px 20px;
@@ -131,4 +108,92 @@
         color: white;
         text-decoration: none;
         font-weight: bold;
+    }
+    .experiencia {
+        background-color: #070707;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .experiencia a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .habilidade {
+        background-color: #070707;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .habilidade a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .conteudo {
+        background-color: #070707;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .conteudo a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    /* Habilidades */
+    .skillsgeral {
+        color: white;
+        margin: 10px;
+        font-size: 15px;
+        width: 120px;
+        height: 180px;
+    }
+    .skillsimg{
+
+    }
+    .primeiraskills {
+
+    }
+    .segundaskills {
+
+    }
+    .terceiraskills {
+
+    }
+    .quartaskills {
+
+    }
+    /* Rodapé */
+    .rodape {
+        background-color: rgb(74, 10, 179);
+        padding: 20px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        margin-right: 10px;
+    }
+    .github {
+        color: white;
+        font-size: 10px;
+        width: 150px;
+        height: 60px;
+        float: left;
+        margin: 10px;
+    }
+    .whatsapp {
+        color: white;
+        font-size: 10px;
+        width: 150px;
+        height: 60px;
+        float: left;
+        margin: 10px;
+    }
+    .linkedin {
+        color: white;
+        font-size: 10px;
+        width: 170px;
+        height: 60px;
+        float: left;
+        margin: 10px;
     }
