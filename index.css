@@ -1,63 +1,74 @@
 .blocoinformacao {
-        border: 3px solid rgb(255, 255, 255); /* Cor e largura da borda */
-        padding: 25px; /* Espaçamento interno */
-        width: 360px; /* Largura do bloco de texto */
-        border-radius: 30px; /* Borda arredondada (opcional) */
+        border: 2px solid rgb(255, 255, 255); /* Cor e largura da borda */
+        padding: 30px; /* Espaçamento interno */
+        width: 415px; /* Largura do bloco de texto */
+        border-radius: 50px; /* Borda arredondada (opcional) */
         margin: 0 auto;
+    }
+    .inf {
+        font-size: 15px;
+        font-family: serif;
+        box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
+        color: white;
+        width: 355px;
+        height: 25px;
+        text-align: center;
+        border-radius: 30px;
     }
     .nome {
         font-size: 15px;
         font-family: serif;
-        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
+        box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
         color: white;
-        width: 300px; /* aumenta ou diminui o tamanho horizontal da cor de fundo*/
-        height: 25px; /* aumenta ou diminui o tamanho vertical da cor de fundo */
+        width: 355px;
+        height: 25px;
         text-align: center; /* centraliza o texto  */
         border-radius: 30px;
     }
+
     .datanascimento {
         font-size: 15px;
         font-family: serif;
         color: white;
-        width: 300px; 
+        width: 355px; 
         height: 25px;
         text-align: center;
-        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
+        box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
         border-radius: 30px;
     }
     .curso {
         font-size: 15px;
         font-family: serif;
         color: white;
-        width: 300px; 
+        width: 355px; 
         height: 25px;
         text-align: center;
-        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
+        box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
         border-radius: 30px;
     }
     .sobre {
         font-size: 15px;
         font-family: serif;
         color: white;
-        width: 300px; 
+        width: 355px; 
         height: 25px;
         text-align: center; 
-        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
+        box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
         border-radius: 30px;
     }
     .conhecimento {
         font-size: 15px;
         font-family: serif;
         color: white;
-        width: 310px; 
-        height: 125px;
+        width: 355px; 
+        height: 90px;
         text-align: center;
-        box-shadow: 0 8px 8px 0 rgb(74, 10, 179);
+        box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
         border-radius: 30px;
     }
     .corpo {
-        background-color: black;
-        margin: 25px;
+        background-color: rgb(145, 143, 143);
+        margin: 10px;
     }
     .legenda {
         color: white;
@@ -67,40 +78,48 @@
         font-size: 20px;
         font-family: serif;
     }
+    .imgperfil {
+        display: flex;
+        justify-content:center;
+        height: 40vh;
+    }
+    .imagemperfil {
+        width: 200px; /* Ajuste o tamanho conforme necessário */
+        height: 200px; /* Ajuste o tamanho conforme necessário */
+        border-radius: 50%; /* Para criar a borda redonda */
+        overflow: hidden; /* Garante que a imagem não ultrapasse a borda */
+        margin-right: 20px; /* Espaço entre a imagem e as informações */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave */
+    }
     /*estilos básicos */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-
      /*Estilos do menu*/
     .menu {
-        background-color: rgb(74, 10, 179);
-        padding: 10px 10px;
+        list-style-type: none;
+        padding: 20px 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: white;
+        padding-bottom: 100px;
     }
     .logo {
         width: 115px; /* Largura */
         height: auto; /* Altura automática*/
-        margin-right: 10px;
         vertical-align: middle;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 20px;
-        box-shadow: 0 8px 8px 0 rgb(5, 5, 5);
-        border-radius: 60px;
+        box-shadow: 0 8px 8px 0 rgb(29, 69, 177);
+        border-radius: 100px;
         text-align: center; 
-    }
-    .menu ul {
-        list-style: none;
-        display: flex;
     }
     /* Estilos do link do menu */
     .contato {
-        background-color: #070707;
+        background-color: rgb(29, 69, 177);
         padding: 10px 20px;
         border-radius: 5px;
     }
@@ -110,7 +129,7 @@
         font-weight: bold;
     }
     .experiencia {
-        background-color: #070707;
+        background-color: rgb(29, 69, 177);
         padding: 10px 20px;
         border-radius: 5px;
     }
@@ -121,7 +140,7 @@
     }
     
     .habilidade {
-        background-color: #070707;
+        background-color: rgb(29, 69, 177);
         padding: 10px 20px;
         border-radius: 5px;
     }
@@ -131,7 +150,7 @@
         font-weight: bold;
     }
     .conteudo {
-        background-color: #070707;
+        background-color: rgb(29, 69, 177);
         padding: 10px 20px;
         border-radius: 5px;
     }
@@ -149,7 +168,14 @@
         height: 180px;
     }
     .skillsimg{
-
+        display: flex;
+        width: 100px; /* Ajuste o tamanho conforme necessário */
+        height: 100px; /* Ajuste o tamanho conforme necessário */
+        border-radius: 50%; /* Para criar a borda redonda */
+        overflow: hidden; /* Garante que a imagem não ultrapasse a borda */
+        margin-right: 30px; /* Espaço entre a imagem e as informações */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave */
+        justify-content:center;
     }
     .primeiraskills {
 
@@ -160,18 +186,19 @@
     .terceiraskills {
 
     }
-    .quartaskills {
+    .quartaskills { 
 
     }
     /* Rodapé */
     .rodape {
-        background-color: rgb(74, 10, 179);
+        background-color: rgb(29, 69, 177);
         padding: 20px 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: white;
-        margin-right: 10px;
+        border-radius: 20px;
+        text-align: center;
     }
     .github {
         color: white;
