@@ -8,6 +8,17 @@ body {
     background-color: rgba(97, 87, 87, 0.932);
     height: 100vh;
 }
+/*estilos dos titulos */
+
+.titulo h1 {
+    font-size: 38px;
+    color: #fff;
+    line-height: 40px;
+    align-items: center;
+}
+.titulo h1 span {
+    color:rgb(29, 69, 177);
+}
 
 /* Estilos do cabeçalho */
 header{
