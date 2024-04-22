@@ -26,6 +26,11 @@ header > .menu {
 header a{
     color: #ffffffab ;
     text-decoration: none;
+    display: inline-block;
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
 }
 header nav ul {
     list-style-type: none;
