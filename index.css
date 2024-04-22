@@ -56,8 +56,11 @@ header .btcontato button {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+    color: #fff;
 }
-
+header .btcontato button:hover {
+    box-shadow: 0px 0px 8px rgb(35, 85, 223);
+}
 
 /* Sobre - Informações importantes da pessoa */
 .blocoinformacao {
@@ -66,6 +69,9 @@ header .btcontato button {
     width: 415px; /* Largura do bloco de texto */
     border-radius: 50px; /* Borda arredondada (opcional) */
     margin: 0 auto;
+}
+.blocoinformacao:hover {
+    box-shadow: 0px 0px 8px rgb(35, 85, 223);
 }
 .inf {
     font-size: 15px;
@@ -146,12 +152,12 @@ header .btcontato button {
 /* Habilidades */
 .skillsgeral {
     color: white;
-    margin: 10px;
+    margin: 100px;
     font-size: 15px;
-    width: 120px;
-    height: 180px;
-    display: inline-block;
+    width: 200px;
+    height: 200px;
     padding: 0 40px;
+    display: inline-block;
 }
 .skillsimg{
     width: 100px;
@@ -160,21 +166,10 @@ header .btcontato button {
     overflow: hidden;
     margin-right: 30px;
     box-shadow: 0 0 10px rgb(29, 69, 177);
-    justify-content:center;
 }
-.primeiraskills {
-
+.skillsimg:hover {
+    box-shadow: 0px 0px 8px rgb(35, 85, 223);
 }
-.segundaskills {
-
-}
-.terceiraskills {
-
-}
-.quartaskills { 
-
-}
-
 
 /* Rodapé */
 .rodape {
