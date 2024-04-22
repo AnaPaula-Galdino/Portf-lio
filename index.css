@@ -66,7 +66,7 @@ header .btcontato button {
 .inf {
     font-size: 15px;
     font-family: serif;
-    box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
+    box-shadow: 0 8px 8px 0 rgb(29, 69, 177);
     color: white;
     width: 355px;
     height: 25px;
@@ -76,7 +76,7 @@ header .btcontato button {
 .nome {
     font-size: 15px;
     font-family: serif;
-    box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
+    box-shadow: 0 8px 8px 0 rgb(29, 69, 177);
     color: white;
     width: 355px;
     height: 25px;
@@ -91,7 +91,7 @@ header .btcontato button {
     width: 355px; 
     height: 25px;
     text-align: center;
-    box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
+    box-shadow: 0 8px 8px 0 rgb(29, 69, 177);
     border-radius: 30px;
 }
 .curso {
@@ -101,7 +101,7 @@ header .btcontato button {
     width: 355px; 
     height: 25px;
     text-align: center;
-    box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
+    box-shadow: 0 8px 8px 0 rgb(29, 69, 177);
     border-radius: 30px;
 }
 .sobre {
@@ -111,7 +111,7 @@ header .btcontato button {
     width: 355px; 
     height: 25px;
     text-align: center; 
-    box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
+    box-shadow: 0 8px 8px 0 rgb(29, 69, 177);
     border-radius: 30px;
 }
 .conhecimento {
@@ -121,7 +121,7 @@ header .btcontato button {
     width: 355px; 
     height: 90px;
     text-align: center;
-    box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
+    box-shadow: 0 8px 8px 0 rgb(29, 69, 177);
     border-radius: 30px;
 }
 .imgperfil {
@@ -135,7 +135,7 @@ header .btcontato button {
     border-radius: 50%; /* Para criar a borda redonda */
     overflow: hidden; /* Garante que a imagem não ultrapasse a borda */
     margin-right: 20px; /* Espaço entre a imagem e as informações */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave */
+    box-shadow: 0 0 10px rgb(29, 69, 177); /* Adiciona uma sombra suave */
 }
 
 
@@ -154,7 +154,7 @@ header .btcontato button {
     border-radius: 50%; /* Para criar a borda redonda */
     overflow: hidden; /* Garante que a imagem não ultrapasse a borda */
     margin-right: 30px; /* Espaço entre a imagem e as informações */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave */
+    box-shadow: 0 0 10px rgb(29, 69, 177); /* Adiciona uma sombra suave */
     justify-content:center;
 }
 .primeiraskills {
