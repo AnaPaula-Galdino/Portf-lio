@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgba(97, 87, 87, 0.932);
+    background-color: rgb(0, 0, 0);
     height: 100vh;
 }
+
 /*estilos dos titulos */
 
 .titulo h1 {
@@ -17,7 +18,7 @@ body {
     align-items: center;
 }
 .titulo h1 span {
-    color:rgb(29, 69, 177);
+    
 }
 
 /* Estilos do cabeçalho */
@@ -55,16 +56,14 @@ header nav ul li {
     width: 1px; /* Largura */
     height: auto; /* Altura automática*/
     vertical-align: middle;
-    box-shadow: 0 8px 8px 0 rgb(29, 69, 177);
-    border-radius: 100px;
-    text-align: center; 
+    
 }
 .logo img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: auto;
 }
 header .btcontato button {
-    padding: 10px 40px;
+    padding: 10px 50px;
     font-size: 18px;
     font-weight: 600;
     background-color: rgb(29, 69, 177);
@@ -155,14 +154,23 @@ header .btcontato button:hover {
     height: 40vh;
 }
 .imagemperfil {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; /* Para criar a borda redonda */
+    width: 130px;
+    height: 130px;
+    border-radius: 100%; /* Para criar a borda redonda */
     overflow: hidden; /* Garante que a imagem não ultrapasse a borda */
-    margin-right: 20px; /* Espaço entre a imagem e as informações */
-    box-shadow: 0 0 10px rgb(29, 69, 177); /* Adiciona uma sombra suave */
+    margin-right: 0px; /* Espaço entre a imagem e as informações */
+    box-shadow: 0 0 15px rgb(29, 69, 177); /* Adiciona uma sombra suave */
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
 }
-
+.imagemperfil img{
+    width: 200px; /* Defina o tamanho do círculo */
+    height: auto; /* Defina o tamanho do círculo */
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+}
 
 /* Habilidades */
 .skillsgeral {
@@ -182,6 +190,10 @@ header .btcontato button:hover {
     margin-right: 30px;
     box-shadow: 0 0 10px rgb(29, 69, 177);
 }
+.skillsimg img {
+    width: 155px;
+    height: auto;
+}
 .skillsimg:hover {
     box-shadow: 0px 0px 8px rgb(35, 85, 223);
 }
@@ -194,7 +206,6 @@ header .btcontato button:hover {
     justify-content: space-between;
     align-items: center;
     color: white;
-    border-radius: 20px;
     text-align: center;
     width: 1350px;
     height: 150px;
@@ -210,24 +221,36 @@ header .btcontato button:hover {
 .github {
     color: white;
     font-size: 10px;
-    width: 10px;
+    width: 90px;
     height: 10px;
     float: left;
-    margin: 10px;
-    }
+    margin: 100px;
+}
+.github img {
+    width: 50px;
+    height: auto;
+}
 .whatsapp {
     color: white;
     font-size: 10px;
-    width: 10px;
+    width:70px;
     height: 10px;
     float: left;
-    margin: 10px;
+    margin: 50px;
+}
+.whatsapp img {
+    width: 50px;
+    height: auto;
 }
 .linkedin {
     color: white;
     font-size: 10px;
-    width: 10px;
+    width: 70px;
     height: 10px;
     float: left;
-    margin: 10px;
+    margin: 50px;
+}
+.linkedin img {
+    width: 50px;
+    height: auto;
 }
