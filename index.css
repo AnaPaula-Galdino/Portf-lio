@@ -287,58 +287,41 @@ form .btn-enviar input{
 }
 
 /* Rodapé */
-.rodape {
-    background-color: rgb(29, 69, 177);
-    padding: 20px 20px;
-    display: flex;
+
+.interfacerodape {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 60px 20px rgb(29, 69, 177);
+}
+footer .flex {
     justify-content: space-between;
-    align-items: center;
-    color: white;
+}
+.logo-footer {
+    display: flex;
+    justify-content:center;
+    height: 10vh;
+    line-height: 10px;
+    
+}
+.line-footer {
     text-align: center;
-    width: 1350px;
-    height: 150px;
 }
-.legenda {
-    color: white;
-}
-.tituloinformacao {
-    color: white;
-    font-size: 20px;
-    font-family: serif;
-}
-.github {
-    color: white;
-    font-size: 10px;
-    width: 90px;
-    height: 10px;
+/* icones */
+.icons {
+    width: 100px;
+    height: 0px;
     float: left;
-    margin: 100px;
+    margin-top: 50px;
+    margin-left: 150px;
+    
 }
-.github img {
-    width: 50px;
+.icons img {
+    padding: 10px 2%;
+    width: 40px;
     height: auto;
-}
-.whatsapp {
-    color: white;
-    font-size: 10px;
-    width:70px;
-    height: 10px;
-    float: left;
-    margin: 50px;
-}
-.whatsapp img {
-    width: 50px;
-    height: auto;
-}
-.linkedin {
-    color: white;
-    font-size: 10px;
-    width: 70px;
-    height: 10px;
-    float: left;
-    margin: 50px;
-}
-.linkedin img {
-    width: 50px;
-    height: auto;
+    margin: 0 20px;
 }
