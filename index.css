@@ -278,7 +278,7 @@ form .btn-enviar{
 form .btn-enviar input {
     width: 120px;
     background-color: rgb(29, 69, 177);
-    color: black;
+    color: #fff;
     font-weight: 700;
     cursor: pointer;
 }
