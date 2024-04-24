@@ -327,3 +327,11 @@ footer .line-footer p a{
     height: auto;
     margin: 0 20px;
 }
+
+/* obrigado */
+
+.obrigado {
+    color: #fff;
+    text-align: center;
+    margin: 200px;
+}
