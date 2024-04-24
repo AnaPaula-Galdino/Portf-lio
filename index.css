@@ -175,9 +175,9 @@ header .btcontato button:hover {
 }
 
 /* Habilidades */
-.skillsgeral {
+
+.skillsgeral .nav .ul .skillsimg {
     color: white;
-    margin: 100px;
     font-size: 15px;
     padding: 40px 4%;
     display: flex;
@@ -186,29 +186,23 @@ header .btcontato button:hover {
     float: left;
 }
 .skillsimg{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 30px;
-    box-shadow: 0 0 10px rgb(29, 69, 177);
-    align-items: center;
-    float: left;
-    margin-right: 10px;
-    
-}
-.txt {
     text-align: center;
-    color: #fff;
-    font-size: 15px;
-    
+    align-items: center;
 }
 .skillsimg img {
-    width: 155px;
+    width: 150px;
     height: auto;
+    align-items: center;
+    border-radius: 100px;
 }
 .skillsimg:hover {
     box-shadow: 0px 0px 8px rgb(35, 85, 223);
+    align-items: center;
+    padding: 40px 4%;
+}
+
+.skillsgeral .nav .ul .interfaceforms .titulo {
+    font-size: 10px;
 }
 
 /* Projeto */
@@ -236,11 +230,6 @@ section.projeto .flex{
     justify-content: center;
     gap: 60px;
 }
-.txt-projeto{
-    color: #fff;
-    width: 800px;
-    height: auto;
-}
 .projeto .txt-projetop p{
     text-align: justify;
 }
@@ -252,6 +241,11 @@ section.projeto .flex{
 .projeto .txt-projeto h2 span{
     color: rgb(35, 85, 223);
     display: block;
+}
+.txt-projeto{
+    color: #fff;
+    width: 800px;
+    height: auto;
 }
 
 /* FALA COMIGO - CONTATO */
