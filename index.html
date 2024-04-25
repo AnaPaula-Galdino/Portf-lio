@@ -8,6 +8,27 @@
 </head>
 <body>
 
+<!--Validação do formulário-->
+    <script>
+        document.getElementById('formcontato').addEventListener('submit', function(event) {
+            var nome = document.getElementById('nome').value;
+            var email = document.getElementById('email').value;
+            var celular = document.getElementById('celular').value;
+            var mensagem = document.getElementById('mensagem').value;
+    
+            if (nome === '' || email === '' || celular === '' || mensagem === '') {
+                alert('Por favor, preencha todos os campos.');
+                event.preventDefault();
+            }
+
+            if (email.indexOf('@') === -1) {
+            alert('Por favor, insira um endereço de e-mail válido.');
+            event.preventDefault();
+            return;
+        }
+        });
+    </script>
+
 <!--Cabeçalho - Menu do site-->
 
     <header>
